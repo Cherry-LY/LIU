@@ -45,7 +45,7 @@ void compute(char *a, char *b, char *c)
 			sum += a[i - j] * b[j]; 
 		}
 		
-		c[i + 1] = sum % 10 + '0'; //ÓàÊı 
+		c[i + 1] = sum % 10 + '0'; //¨®¨¤¨ºy 
 		carry = sum / 10; 
     } 
 
