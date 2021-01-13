@@ -4,7 +4,7 @@
 int main()
 {
 	int n, i;
-	scanf("%d",&n);//表示有n组数据
+	scanf("%d",&n);
 	for(i=0;i<n;i++){	
         double m;
         scanf("%lf",&m);
